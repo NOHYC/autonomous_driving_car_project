@@ -56,11 +56,13 @@
 
 ### Carla simulator
 
-![img](https://lh3.googleusercontent.com/NkTnBVJmrpI_KeDQhaSTQqhhTAbCxDVZSUWd4uJJafnMkXViRgXv-b_rQVvJXGwP6u7neU5XknD54iOADV5e2tYKDT72ZjI8m6yG6c_9jLkFrSdxDdDiR0CQVlzmFXpH=s0)
+
+
+![](README.assets/ezgif.com-gif-maker (4).gif)
 
 ### NX
 
-![ezgif.com-gif-maker (README.assets/ezgif.com-gif-maker (5).gif)](../../../Downloads/ezgif.com-gif-maker (5).gif)
+![](README.assets/ezgif.com-gif-maker (5).gif)
 
 
 
