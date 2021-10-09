@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: image-geometry
+Version: 1.15.0
+Summary: `image_geometry` contains C++ and Python libraries for interpreting images
+    geometrically. It interfaces the calibration parameters in sensor_msgs/CameraInfo
+    messages with OpenCV functions s...
+Home-page: http://www.ros.org/wiki/image_geometry
+Author: Patrick Mihelich
+Maintainer: Vincent Rabaud
+Maintainer-email: vincent.rabaud@gmail.com
+License: BSD
+Description: `image_geometry` contains C++ and Python libraries for interpreting images
+            geometrically. It interfaces the calibration parameters in sensor_msgs/CameraInfo
+            messages with OpenCV functions such as image rectification, much as cv_bridge
+            interfaces ROS sensor_msgs/Image with OpenCV data types.
+Platform: UNKNOWN

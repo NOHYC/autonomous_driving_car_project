@@ -1,0 +1,1 @@
+/home/ub/cvbridge_build_ws/devel/.private/ros_enet/share/roseus/ros/ros_enet/manifest.l

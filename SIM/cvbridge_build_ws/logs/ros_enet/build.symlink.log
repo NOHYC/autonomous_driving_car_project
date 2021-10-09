@@ -1,0 +1,7 @@
+Symlinking /home/ub/cvbridge_build_ws/devel/lib/python3/dist-packages/ros_enet/__init__.py
+Symlinking /home/ub/cvbridge_build_ws/devel/lib/pkgconfig/ros_enet.pc
+Symlinking /home/ub/cvbridge_build_ws/devel/share/roseus/ros/ros_enet/manifest.l
+Symlinking /home/ub/cvbridge_build_ws/devel/share/ros_enet/cmake/ros_enetConfig.cmake
+Symlinking /home/ub/cvbridge_build_ws/devel/share/ros_enet/cmake/ros_enetConfig-version.cmake
+Symlinking /home/ub/cvbridge_build_ws/devel/share/ros_enet/cmake/ros_enet-msg-extras.cmake
+Symlinking /home/ub/cvbridge_build_ws/devel/share/ros_enet/cmake/ros_enet-msg-paths.cmake

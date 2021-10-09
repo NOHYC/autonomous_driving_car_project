@@ -1,0 +1,46 @@
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target ros_enet_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target ros_enet_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target ros_enet_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[100%] Built target ros_enet_generate_messages_eus
+[100%] Built target sensor_msgs_generate_messages_lisp
+[100%] Built target std_msgs_generate_messages_lisp
+[100%] Built target geometry_msgs_generate_messages_lisp
+[100%] Built target ros_enet_generate_messages_lisp
+[100%] Built target ros_enet_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/_setup_util.py
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/env.sh
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/setup.bash
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/local_setup.bash
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/setup.sh
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/local_setup.sh
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/setup.zsh
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/local_setup.zsh
+-- Up-to-date: /home/ub/cvbridge_build_ws/install/.rosinstall
+-- Installing: /home/ub/cvbridge_build_ws/install/share/ros_enet/cmake/ros_enet-msg-paths.cmake
+-- Installing: /home/ub/cvbridge_build_ws/install/share/roseus/ros/ros_enet
+-- Installing: /home/ub/cvbridge_build_ws/install/share/roseus/ros/ros_enet/manifest.l
+Listing '/home/ub/cvbridge_build_ws/devel/.private/ros_enet/lib/python3/dist-packages/ros_enet'...
+Compiling '/home/ub/cvbridge_build_ws/devel/.private/ros_enet/lib/python3/dist-packages/ros_enet/__init__.py'...
+-- Installing: /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/ros_enet
+-- Installing: /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/ros_enet/__pycache__
+-- Installing: /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/ros_enet/__pycache__/__init__.cpython-36.pyc
+-- Installing: /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/ros_enet/__init__.py
+-- Installing: /home/ub/cvbridge_build_ws/install/lib/pkgconfig/ros_enet.pc
+-- Installing: /home/ub/cvbridge_build_ws/install/share/ros_enet/cmake/ros_enet-msg-extras.cmake
+-- Installing: /home/ub/cvbridge_build_ws/install/share/ros_enet/cmake/ros_enetConfig.cmake
+-- Installing: /home/ub/cvbridge_build_ws/install/share/ros_enet/cmake/ros_enetConfig-version.cmake
+-- Installing: /home/ub/cvbridge_build_ws/install/share/ros_enet/package.xml

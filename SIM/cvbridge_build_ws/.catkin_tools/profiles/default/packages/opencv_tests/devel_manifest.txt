@@ -1,0 +1,5 @@
+vision_opencv/opencv_tests
+/home/ub/cvbridge_build_ws/devel/.private/opencv_tests/cmake.lock /home/ub/cvbridge_build_ws/devel/./cmake.lock
+/home/ub/cvbridge_build_ws/devel/.private/opencv_tests/lib/pkgconfig/opencv_tests.pc /home/ub/cvbridge_build_ws/devel/lib/pkgconfig/opencv_tests.pc
+/home/ub/cvbridge_build_ws/devel/.private/opencv_tests/share/opencv_tests/cmake/opencv_testsConfig-version.cmake /home/ub/cvbridge_build_ws/devel/share/opencv_tests/cmake/opencv_testsConfig-version.cmake
+/home/ub/cvbridge_build_ws/devel/.private/opencv_tests/share/opencv_tests/cmake/opencv_testsConfig.cmake /home/ub/cvbridge_build_ws/devel/share/opencv_tests/cmake/opencv_testsConfig.cmake

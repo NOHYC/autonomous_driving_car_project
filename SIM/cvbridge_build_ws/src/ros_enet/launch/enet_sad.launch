@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Camera topic and weights, config and classes files -->
+    <!--arg name="image_topic"	                default="/carla/ego_vehicle/camera/rgb/front/image_color"/-->
+    <arg name="image_topic"	                default="/carla/ego_vehicle/camera/semantic_segmentation/front/image_segmentation"/>
+    <arg name="weights_name"	            default="exp_carla1_best.pth"/>
+
+    <!-- Published topics -->
+    <arg name="publish_image"	            default="true"/>
+    <arg name="detections_image_topic"      default="detections_image_topic"/>
+    <!-- Node -->
+    <node name="detector_manager" pkg="ros_enet" type="detector.py" output="screen" respawn="true">
+        <param name="image_topic"               value="$(arg image_topic)"/>
+        <param name="weights_name"              value="$(arg weights_name)"/>
+        <param name="publish_image"             value="$(arg publish_image)"/>
+
+        <param name="detections_image_topic"    value="$(arg detections_image_topic)"/>
+    </node>
+</launch>

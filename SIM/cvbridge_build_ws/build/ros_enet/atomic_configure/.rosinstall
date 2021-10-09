@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ub/cvbridge_build_ws/devel/.private/ros_enet/setup.sh

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ub/cvbridge_build_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc09c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc09c.dir/build.make CMakeFiles/cmTC_bc09c.dir/build
+make[1]: Entering directory '/home/ub/cvbridge_build_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc09c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bc09c.dir/CheckSymbolExists.c.o   -c /home/ub/cvbridge_build_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bc09c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc09c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bc09c.dir/CheckSymbolExists.c.o  -o cmTC_bc09c 
+CMakeFiles/cmTC_bc09c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bc09c.dir/build.make:97: recipe for target 'cmTC_bc09c' failed
+make[1]: *** [cmTC_bc09c] Error 1
+make[1]: Leaving directory '/home/ub/cvbridge_build_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bc09c/fast' failed
+make: *** [cmTC_bc09c/fast] Error 2
+
+File /home/ub/cvbridge_build_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ub/cvbridge_build_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8bead/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8bead.dir/build.make CMakeFiles/cmTC_8bead.dir/build
+make[1]: Entering directory '/home/ub/cvbridge_build_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bead.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8bead.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8bead
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bead.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8bead.dir/CheckFunctionExists.c.o  -o cmTC_8bead -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8bead.dir/build.make:97: recipe for target 'cmTC_8bead' failed
+make[1]: *** [cmTC_8bead] Error 1
+make[1]: Leaving directory '/home/ub/cvbridge_build_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8bead/fast' failed
+make: *** [cmTC_8bead/fast] Error 2
+
+

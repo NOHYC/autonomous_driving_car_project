@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ub/cvbridge_build_ws/devel/.private/image_geometry/setup.sh

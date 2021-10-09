@@ -1,0 +1,64 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[100%] Built target image_geometry
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ub/cvbridge_build_ws/install/_setup_util.py
+-- Installing: /home/ub/cvbridge_build_ws/install/env.sh
+-- Installing: /home/ub/cvbridge_build_ws/install/setup.bash
+-- Installing: /home/ub/cvbridge_build_ws/install/local_setup.bash
+-- Installing: /home/ub/cvbridge_build_ws/install/setup.sh
+-- Installing: /home/ub/cvbridge_build_ws/install/local_setup.sh
+-- Installing: /home/ub/cvbridge_build_ws/install/setup.zsh
+-- Installing: /home/ub/cvbridge_build_ws/install/local_setup.zsh
+-- Installing: /home/ub/cvbridge_build_ws/install/.rosinstall
+-- Installing: /home/ub/cvbridge_build_ws/install/lib/pkgconfig/image_geometry.pc
+-- Installing: /home/ub/cvbridge_build_ws/install/share/image_geometry/cmake/image_geometryConfig.cmake
+-- Installing: /home/ub/cvbridge_build_ws/install/share/image_geometry/cmake/image_geometryConfig-version.cmake
+-- Installing: /home/ub/cvbridge_build_ws/install/share/image_geometry/package.xml
++ cd /home/ub/cvbridge_build_ws/src/vision_opencv/image_geometry
++ mkdir -p /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages
++ /usr/bin/env PYTHONPATH=/home/ub/cvbridge_build_ws/install/lib/python3/dist-packages:/home/ub/cvbridge_build_ws/build/image_geometry/lib/python3/dist-packages:/home/ub/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ub/cvbridge_build_ws/build/image_geometry /usr/bin/python3 /home/ub/cvbridge_build_ws/src/vision_opencv/image_geometry/setup.py egg_info --egg-base /home/ub/cvbridge_build_ws/build/image_geometry build --build-base /home/ub/cvbridge_build_ws/build/image_geometry install --root=/ --install-layout=deb --prefix=/home/ub/cvbridge_build_ws/install --install-scripts=/home/ub/cvbridge_build_ws/install/bin
+running egg_info
+creating /home/ub/cvbridge_build_ws/build/image_geometry/image_geometry.egg-info
+writing /home/ub/cvbridge_build_ws/build/image_geometry/image_geometry.egg-info/PKG-INFO
+writing dependency_links to /home/ub/cvbridge_build_ws/build/image_geometry/image_geometry.egg-info/dependency_links.txt
+writing top-level names to /home/ub/cvbridge_build_ws/build/image_geometry/image_geometry.egg-info/top_level.txt
+writing manifest file '/home/ub/cvbridge_build_ws/build/image_geometry/image_geometry.egg-info/SOURCES.txt'
+reading manifest file '/home/ub/cvbridge_build_ws/build/image_geometry/image_geometry.egg-info/SOURCES.txt'
+writing manifest file '/home/ub/cvbridge_build_ws/build/image_geometry/image_geometry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ub/cvbridge_build_ws/build/image_geometry/lib
+creating /home/ub/cvbridge_build_ws/build/image_geometry/lib/image_geometry
+copying src/image_geometry/cameramodels.py -> /home/ub/cvbridge_build_ws/build/image_geometry/lib/image_geometry
+copying src/image_geometry/__init__.py -> /home/ub/cvbridge_build_ws/build/image_geometry/lib/image_geometry
+running install
+running install_lib
+creating /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/image_geometry
+copying /home/ub/cvbridge_build_ws/build/image_geometry/lib/image_geometry/cameramodels.py -> /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/image_geometry
+copying /home/ub/cvbridge_build_ws/build/image_geometry/lib/image_geometry/__init__.py -> /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/image_geometry
+byte-compiling /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/image_geometry/cameramodels.py to cameramodels.cpython-36.pyc
+byte-compiling /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/image_geometry/__init__.py to __init__.cpython-36.pyc
+running install_egg_info
+Copying /home/ub/cvbridge_build_ws/build/image_geometry/image_geometry.egg-info to /home/ub/cvbridge_build_ws/install/lib/python3/dist-packages/image_geometry-1.15.0.egg-info
+Skipping SOURCES.txt
+running install_scripts
+-- Installing: /home/ub/cvbridge_build_ws/install/include/image_geometry/
+-- Installing: /home/ub/cvbridge_build_ws/install/include/image_geometry//exports.h
+-- Installing: /home/ub/cvbridge_build_ws/install/include/image_geometry//stereo_camera_model.h
+-- Installing: /home/ub/cvbridge_build_ws/install/include/image_geometry//pinhole_camera_model.h
+-- Installing: /home/ub/cvbridge_build_ws/install/lib/libimage_geometry.so

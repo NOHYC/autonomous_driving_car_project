@@ -1,0 +1,1 @@
+/home/ub/cvbridge_build_ws/devel/.private/opencv_tests/lib/pkgconfig/opencv_tests.pc

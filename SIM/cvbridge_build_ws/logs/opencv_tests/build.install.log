@@ -1,0 +1,15 @@
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ub/cvbridge_build_ws/install/_setup_util.py
+-- Installing: /home/ub/cvbridge_build_ws/install/env.sh
+-- Installing: /home/ub/cvbridge_build_ws/install/setup.bash
+-- Installing: /home/ub/cvbridge_build_ws/install/local_setup.bash
+-- Installing: /home/ub/cvbridge_build_ws/install/setup.sh
+-- Installing: /home/ub/cvbridge_build_ws/install/local_setup.sh
+-- Installing: /home/ub/cvbridge_build_ws/install/setup.zsh
+-- Installing: /home/ub/cvbridge_build_ws/install/local_setup.zsh
+-- Installing: /home/ub/cvbridge_build_ws/install/.rosinstall
+-- Installing: /home/ub/cvbridge_build_ws/install/lib/pkgconfig/opencv_tests.pc
+-- Installing: /home/ub/cvbridge_build_ws/install/share/opencv_tests/cmake/opencv_testsConfig.cmake
+-- Installing: /home/ub/cvbridge_build_ws/install/share/opencv_tests/cmake/opencv_testsConfig-version.cmake
+-- Installing: /home/ub/cvbridge_build_ws/install/share/opencv_tests/package.xml

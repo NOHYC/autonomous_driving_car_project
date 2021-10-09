@@ -1,0 +1,1 @@
+/home/ub/cvbridge_build_ws/devel/.private/ros_enet/lib/pkgconfig/ros_enet.pc

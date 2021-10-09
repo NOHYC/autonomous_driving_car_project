@@ -1,0 +1,13 @@
+/home/ub/cvbridge_build_ws/install/_setup_util.py
+/home/ub/cvbridge_build_ws/install/env.sh
+/home/ub/cvbridge_build_ws/install/setup.bash
+/home/ub/cvbridge_build_ws/install/local_setup.bash
+/home/ub/cvbridge_build_ws/install/setup.sh
+/home/ub/cvbridge_build_ws/install/local_setup.sh
+/home/ub/cvbridge_build_ws/install/setup.zsh
+/home/ub/cvbridge_build_ws/install/local_setup.zsh
+/home/ub/cvbridge_build_ws/install/.rosinstall
+/home/ub/cvbridge_build_ws/install/lib/pkgconfig/project.pc
+/home/ub/cvbridge_build_ws/install/share/project/cmake/projectConfig.cmake
+/home/ub/cvbridge_build_ws/install/share/project/cmake/projectConfig-version.cmake
+/home/ub/cvbridge_build_ws/install/share/project/package.xml

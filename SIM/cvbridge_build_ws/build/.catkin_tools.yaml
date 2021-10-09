@@ -1,0 +1,6 @@
+devel_space: /home/ub/cvbridge_build_ws/devel
+install: true
+install_space: /home/ub/cvbridge_build_ws/install
+profile: default
+source_space: /home/ub/cvbridge_build_ws/src
+workspace: /home/ub/cvbridge_build_ws
