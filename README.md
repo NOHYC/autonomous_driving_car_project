@@ -58,11 +58,11 @@
 
 
 
-![](README.assets/ezgif.com-gif-maker (4).gif)
+![1](README.assets/gif-maker(4).gif)
 
 ### NX
 
-![](README.assets/ezgif.com-gif-maker (5).gif)
+![2](README.assets/gif-maker(5).gif)
 
 
 
