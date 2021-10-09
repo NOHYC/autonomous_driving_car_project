@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Camera topic and weights, config and classes files -->
+    <arg name="image_topic"	                default="/TFF/camera_topic"/>
+    <arg name="weights_name"	            default="exp1_best.pth"/>
+
+    <!-- Published topics -->
+    <arg name="publish_image"	            default="true"/>
+    <arg name="detections_image_topic"      default="/TFF/detections_image_topic"/>
+    <!-- Node -->
+    <node name="image_pulisher" pkg="enet_ros" type="pub_camera.py" output="screen" respawn="true">
+    </node>
+    <node name="detector_manager" pkg="enet_ros" type="detector_ros.py" output="screen" respawn="true">
+        <param name="image_topic"               value="$(arg image_topic)"/>
+        <param name="weights_name"              value="$(arg weights_name)"/>
+        <param name="publish_image"             value="$(arg publish_image)"/>
+
+        <param name="detections_image_topic"    value="$(arg detections_image_topic)"/>
+    </node>
+</launch>
